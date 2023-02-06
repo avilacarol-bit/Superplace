@@ -21,15 +21,14 @@ export const DivInput = styled.div`
   align-items: center;
 `;
 
-export const ContainerClient = styled.div `
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 1em;
-    align-items: center;
-    width: 72vw;
-    margin-left: 2.3em;
-    
-`
+export const ContainerClient = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1em;
+  align-items: center;
+  width: 72vw;
+  margin-left: 2.3em;
+`;
 export const LabelClient = styled.label`
   color: #fefefe;
   font-weight: 600;
@@ -64,6 +63,12 @@ export const InputQty = styled.input`
 export const PriceProduct = styled.p`
   color: #fefefe;
   font-weight: 600;
+`;
+
+export const NoStock = styled.p`
+  color: #fefefe;
+  font-size: 16px;
+  text-align: center;
 `;
 
 export const Button = styled.button`

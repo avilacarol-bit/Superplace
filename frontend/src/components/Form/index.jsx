@@ -18,6 +18,7 @@ import {
   InputQty,
   Label,
   LabelClient,
+  NoStock,
   PriceProduct,
 } from "./styled";
 
@@ -209,7 +210,7 @@ export const Form = ({ productList, setProductList }) => {
               </Button>
             )}
           {selectProduct && selectProduct.qty_stock < form.qty && (
-            <h3>Produto sem Estoque!</h3>
+            <NoStock>Produto sem Estoque!</NoStock>
           )}
         </DivInput>
       )}
